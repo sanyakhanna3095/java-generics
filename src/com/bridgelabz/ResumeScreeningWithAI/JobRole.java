@@ -1,7 +1,7 @@
 package com.bridgelabz.ResumeScreeningWithAI;
 
 
-//Abstract class
+//Abstract class to define job role
 public abstract class JobRole {
     private String candidateName;
     private int experienceYears;
