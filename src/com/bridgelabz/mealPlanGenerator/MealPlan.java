@@ -12,7 +12,7 @@ public interface MealPlan {
 class VegetarianMeal implements MealPlan {
     @Override
     public void displayMeal() {
-        System.out.println("Vegetarian Meal: Grilled tofu with steamed vegetables.");
+        System.out.println("Vegetarian Meal: Chilli Paneer");
     }
 }
 
@@ -20,7 +20,7 @@ class VegetarianMeal implements MealPlan {
 class VeganMeal implements MealPlan {
     @Override
     public void displayMeal() {
-        System.out.println("Vegan Meal: Quinoa salad with chickpeas, beans and avocado.");
+        System.out.println("Vegan Meal: Creamy Vegan Pasta");
     }
 }
 
@@ -28,7 +28,7 @@ class VeganMeal implements MealPlan {
 class HighProteinMeal implements MealPlan {
     @Override
     public void displayMeal() {
-        System.out.println("High-Protein Meal: Chicken breast with quinoa and spinach.");
+        System.out.println("High-Protein Meal: Salmon & Asparagus with Lemon-Garlic Butter Sauce");
     }
 }
 
