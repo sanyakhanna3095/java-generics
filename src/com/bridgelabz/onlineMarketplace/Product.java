@@ -37,6 +37,7 @@ public class Product<T> {
         }
     }
 
+
     // Display product details
     public void displayProduct() {
         System.out.println("Product: " + name + " || Category: " + category + " || Price: Rs." + price);
