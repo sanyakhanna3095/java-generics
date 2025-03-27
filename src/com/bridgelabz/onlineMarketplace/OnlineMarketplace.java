@@ -3,9 +3,9 @@ package com.bridgelabz.onlineMarketplace;
 public class OnlineMarketplace {
     public static void main(String[] args) {
         // Create products
-        Product<BookCategory> book1 = new Product<>("The Alchemist", 21.75, BookCategory.FICTION);
-        Product<ClothingCategory> clothing1 = new Product<>("T-Shirt", 15.50, ClothingCategory.MEN);
-        Product<GadgetCategory> gadget1 = new Product<>("Smartphone", 299.99, GadgetCategory.MOBILE);
+        Product<BookCategory> book1 = new Product<>("The Alchemist", 260, BookCategory.FICTION);
+        Product<ClothingCategory> clothing1 = new Product<>("T-Shirt", 850, ClothingCategory.MEN);
+        Product<GadgetCategory> gadget1 = new Product<>("Smartphone", 54000, GadgetCategory.MOBILE);
 
         // Create catalogs
         ProductCatalog<BookCategory> bookCatalog = new ProductCatalog<>();
